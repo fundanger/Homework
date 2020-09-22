@@ -1,0 +1,17 @@
+Brandon Jardine
+CS113
+
+Before implementation
+How often do you get a solution in fewer than 20 guesses? Does this change depending on the theory you test (1, 2, 3)?
+Since the algorithm randomly guesses every number until it gets the right number, it will rarely guess the correct answer in 20 guesses or fewer.
+The theory doesn't matter since it doesn't start in any order.
+
+What is good or bad about this strategy?
+You can never efficiently guess the correct solution as there is no checking of each number, just random guessing.
+
+After implementation
+How often do you get a solution in fewer than 20 guesses? Does this change depending on the theory you test (1, 2, 3)?
+You get a solution in fewer than 20 guesses regardless of which theory you test.
+
+What is good or bad about this strategy?
+The guessing is extremely efficient and ordered.
